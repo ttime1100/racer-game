@@ -1,0 +1,10 @@
+body {
+background-image: url('../img/giphy.gif');
+background-repeat: no-repeat;
+background-size: cover;
+}
+ button {
+   width: 500px;
+   height: 150px;
+   margin-left: 400px;
+ }
