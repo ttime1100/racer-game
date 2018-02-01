@@ -3,7 +3,7 @@ background-image: url('../img/giphy.gif');
 background-repeat: no-repeat;
 background-size: cover;
 }
- button {
+ #press {
    width: 1200px;
    height: 150px;
    margin-left: 400px;
