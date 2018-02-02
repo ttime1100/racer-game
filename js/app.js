@@ -45,15 +45,55 @@ if(e.charCode === 112) {
 $("body").on('keypress', function(e) {
 if(e.charCode === 104) {
   $("#scooby").animate({left: '+=20px'});
-}
+  }
+
   });
+
+  var ale = $("#bugs").position();
+  var lee = $("#finish-line").position();
 
   $("body").on('keypress', function(e) {
+
 if (e.charCode === 113) {
-  $("#bugs").animate({left: '+=20px'})
+  $("#bugs").animate({left:'+=20px'});
+
+}
+plus();
+
+});
+
+var num = 1;
+
+function plus() {
+   num++;
+
+   if (num === 100) {
+     alert("Done");
+
+  document.location.href = "C:/Users/T-Time/wdi/projects/racer-game/views/game.html";
+}
 }
 
-  });
+
+
+
+
+/*if (ale.left === 1180 ) {
+  alert("You won");
+}
+*/
+
+
+
+// 1183.3333740234375
+
+  /*function youWon() {
+
+  if($("bugs").position() === )
+  }
+
+
+*/
 
 
 });

@@ -9,3 +9,9 @@ background-size: cover;
    margin-left: 400px;
    text-align: center;
  }
+
+ #finish-line {
+   width: 80px;
+   height: 600px;
+   background-color: green;
+ }
