@@ -1,7 +1,6 @@
 $(document).ready( function () {
 
 
-
 $("#press").mouseenter( function() {
 
 $(this).animate({height:'+=100px'});
@@ -40,12 +39,16 @@ $("body").on('keypress', function(e) {
 if(e.charCode === 112) {
   $("#beev").animate({left: '+=20px'});
 }
+
+  plus();
   });
 
 $("body").on('keypress', function(e) {
 if(e.charCode === 104) {
   $("#scooby").animate({left: '+=20px'});
   }
+
+  plus();
 
   });
 
@@ -56,9 +59,10 @@ if(e.charCode === 104) {
 
 if (e.charCode === 113) {
   $("#bugs").animate({left:'+=20px'});
-
 }
 plus();
+
+
 
 });
 
@@ -66,13 +70,13 @@ var num = 1;
 
 function plus() {
    num++;
-
-   if (num === 100) {
-     alert("Done");
-
-  document.location.href = "C:/Users/T-Time/wdi/projects/racer-game/views/game.html";
+if (num === 400) {
+     alert("You've Won!!!!!!");
 }
+
 }
+
+
 
 
 
